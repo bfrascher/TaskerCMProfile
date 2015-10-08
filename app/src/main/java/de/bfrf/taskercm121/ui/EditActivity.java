@@ -129,10 +129,10 @@ class ProfileAdapter extends BaseAdapter {
         TextView name;
 
         if (view == null) {
-            view = inflater.inflate(android.R.layout.simple_spinner_item, null);
+            view = inflater.inflate(R.layout.profile_spinner_item, null);
         }
 
-        name = (TextView) view.findViewById(android.R.id.text1);
+        name = (TextView) view.findViewById(R.id.profile_item_name);
 
         if (getCount() <= 0) {
             name.setText(R.string.no_profiles);
@@ -148,10 +148,10 @@ class ProfileAdapter extends BaseAdapter {
         TextView name;
 
         if (view == null) {
-            view = inflater.inflate(android.R.layout.simple_spinner_dropdown_item, null);
+            view = inflater.inflate(R.layout.profile_spinner_item, null);
         }
 
-        name = (TextView) view.findViewById(android.R.id.text1);
+        name = (TextView) view.findViewById(R.id.profile_item_name);
 
         if (getCount() <= 0) {
             name.setText(R.string.no_profiles);
