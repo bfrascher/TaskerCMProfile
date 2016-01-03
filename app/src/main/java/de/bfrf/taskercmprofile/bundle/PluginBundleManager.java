@@ -19,14 +19,14 @@
  * Added some functions to read from the bundle.
  */
 
-package de.bfrf.taskercm121.bundle;
+package de.bfrf.taskercmprofile.bundle;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 
-import de.bfrf.taskercm121.Constants;
+import de.bfrf.taskercmprofile.Constants;
 
 /**
  * Class for managing the {@link com.twofortyfouram.locale.Intent#EXTRA_BUNDLE} for this plug-in.
@@ -38,14 +38,14 @@ public final class PluginBundleManager
      * <p>
      * Name of the profile to activate.
      */
-    public static final String BUNDLE_EXTRA_STRING_NAME = "de.bfrf.taskercm121.extra.STRING_NAME"; //$NON-NLS-1$
+    public static final String BUNDLE_EXTRA_STRING_NAME = "de.bfrf.de.bfrf.taskercmprofile.extra.STRING_NAME"; //$NON-NLS-1$
 
     /**
      * Type: {@code String}.
      * <p>
      * UUID of the profile to activate (as a String).
      */
-    public static final String BUNDLE_EXTRA_STRING_UUID = "de.bfrf.taskercm121.extra.STRING_UUID";
+    public static final String BUNDLE_EXTRA_STRING_UUID = "de.bfrf.de.bfrf.taskercmprofile.extra.STRING_UUID";
 
     /**
      * Type: {@code int}.
@@ -58,7 +58,7 @@ public final class PluginBundleManager
      * having the version, the plug-in can better detect when such bugs occur.
      */
     public static final String BUNDLE_EXTRA_INT_VERSION_CODE =
-            "de.bfrf.taskercm121.extra.INT_VERSION_CODE"; //$NON-NLS-1$
+            "de.bfrf.de.bfrf.taskercmprofile.extra.INT_VERSION_CODE"; //$NON-NLS-1$
 
     /**
      * Method to verify the content of the bundle are correct.

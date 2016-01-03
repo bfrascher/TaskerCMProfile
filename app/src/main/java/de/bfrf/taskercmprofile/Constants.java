@@ -16,7 +16,7 @@
  * Changed LOG_TAG.
  */
 
-package de.bfrf.taskercm121;
+package de.bfrf.taskercmprofile;
 
 import android.content.Context;
 

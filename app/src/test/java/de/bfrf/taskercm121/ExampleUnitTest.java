@@ -1,4 +1,4 @@
-package de.bfrf.taskercm121;
+package de.bfrf.taskercmprofile;
 
 import org.junit.Test;
 

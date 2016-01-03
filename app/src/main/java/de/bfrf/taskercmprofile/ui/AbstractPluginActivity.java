@@ -15,7 +15,7 @@
  * Changed the package name and some of the imports.
  */
 
-package de.bfrf.taskercm121.ui;
+package de.bfrf.taskercmprofile.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -27,8 +27,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.twofortyfouram.locale.BreadCrumber;
-import de.bfrf.taskercm121.Constants;
-import de.bfrf.taskercm121.R;
+import de.bfrf.taskercmprofile.Constants;
+import de.bfrf.taskercmprofile.R;
 
 /**
  * Superclass for plug-in Activities. This class takes care of initializing aspects of the plug-in's UI to

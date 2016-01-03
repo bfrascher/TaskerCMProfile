@@ -15,7 +15,7 @@
  * Changed the package name and some of the imports.
  */
 
-package de.bfrf.taskercm121.ui;
+package de.bfrf.taskercmprofile.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,7 +27,7 @@ import android.util.Log;
 import java.util.Locale;
 
 import com.twofortyfouram.locale.PackageUtilities;
-import de.bfrf.taskercm121.Constants;
+import de.bfrf.taskercmprofile.Constants;
 
 /**
  * If the user tries to launch the plug-in via the "Open" button in Google Play, this will redirect the user

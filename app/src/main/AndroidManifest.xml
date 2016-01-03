@@ -28,7 +28,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="de.bfrf.taskercm121"
+    package="de.bfrf.taskercmprofile"
     android:installLocation="internalOnly">
 
     <!-- This allows the plug-in to appear on non-touchscreen devices like Google TV.  Be sure to test that the app works without a touchscreen. -->
@@ -46,7 +46,7 @@
 
     <!-- When hardware acceleration is enabled, the RAM memory usage of the app is significantly increased as soon as any UI is displayed. To reduce the memory usage of a plug-in which is primarily a background app, either (1) hardware acceleration should be disabled or (2) the plug-in's BroadcastReceiver (and any applicable Service) should be put into a different process. This example plug-in creates two processes. -->
     <application
-        android:name=".PluginApplication"
+        android:name="de.bfrf.de.bfrf.taskercmprofile.PluginApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -58,7 +58,7 @@
             will help when users tap the "Open" button in the Google Play store.
         -->
         <activity
-            android:name=".ui.InfoActivity"
+            android:name="de.bfrf.de.bfrf.taskercmprofile.ui.InfoActivity"
             android:exported="true"
             tools:ignore="ExportedActivity" >
             <intent-filter>
@@ -76,7 +76,7 @@
                  - The Activity requires permissions not available to Locale
         -->
         <activity
-            android:name=".ui.EditActivity"
+            android:name="de.bfrf.de.bfrf.taskercmprofile.ui.EditActivity"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/plugin_name"
@@ -97,7 +97,7 @@
                 - There are multiple BroadcastReceivers for com.twofortyfouram.locale.intent.action.FIRE_SETTING
         -->
         <receiver
-            android:name=".receiver.FireReceiver"
+            android:name="de.bfrf.de.bfrf.taskercmprofile.receiver.FireReceiver"
             android:exported="true"
             android:process=":background"
             tools:ignore="ExportedReceiver" >

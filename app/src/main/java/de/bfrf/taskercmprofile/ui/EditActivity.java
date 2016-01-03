@@ -18,7 +18,7 @@
  * Added the class ProfileAdapter.
  */
 
-package de.bfrf.taskercm121.ui;
+package de.bfrf.taskercmprofile.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -37,9 +37,9 @@ import cyanogenmod.app.Profile;
 import cyanogenmod.app.ProfileManager;
 
 import cyanogenmod.os.Build;
-import de.bfrf.taskercm121.R;
-import de.bfrf.taskercm121.bundle.BundleScrubber;
-import de.bfrf.taskercm121.bundle.PluginBundleManager;
+import de.bfrf.taskercmprofile.R;
+import de.bfrf.taskercmprofile.bundle.BundleScrubber;
+import de.bfrf.taskercmprofile.bundle.PluginBundleManager;
 
 /**
  * This is the "Edit" activity for a Locale Plug-in.

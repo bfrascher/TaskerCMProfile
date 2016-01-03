@@ -15,7 +15,7 @@
  * Changed the package name.
  */
 
-package de.bfrf.taskercm121;
+package de.bfrf.taskercmprofile;
 
 import android.annotation.TargetApi;
 import android.app.Application;

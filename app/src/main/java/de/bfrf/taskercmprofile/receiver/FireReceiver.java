@@ -16,7 +16,7 @@
  * Changed the logic for handling a valid bundle.
  */
 
-package de.bfrf.taskercm121.receiver;
+package de.bfrf.taskercmprofile.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -30,10 +30,10 @@ import java.util.UUID;
 import cyanogenmod.app.ProfileManager;
 import cyanogenmod.os.Build;
 
-import de.bfrf.taskercm121.Constants;
-import de.bfrf.taskercm121.bundle.BundleScrubber;
-import de.bfrf.taskercm121.bundle.PluginBundleManager;
-import de.bfrf.taskercm121.ui.EditActivity;
+import de.bfrf.taskercmprofile.Constants;
+import de.bfrf.taskercmprofile.bundle.BundleScrubber;
+import de.bfrf.taskercmprofile.bundle.PluginBundleManager;
+import de.bfrf.taskercmprofile.ui.EditActivity;
 
 /**
  * This is the "fire" BroadcastReceiver for a Locale Plug-in setting.

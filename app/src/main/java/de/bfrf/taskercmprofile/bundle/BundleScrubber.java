@@ -15,7 +15,7 @@
  * Changed the package name.
  */
 
-package de.bfrf.taskercm121.bundle;
+package de.bfrf.taskercmprofile.bundle;
 
 import android.content.Intent;
 import android.os.Bundle;
