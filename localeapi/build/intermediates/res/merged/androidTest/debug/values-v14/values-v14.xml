@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/benedikt/Projects/Android/TaskerCM12.1/localeapi/build/intermediates/bundles/debug/res/values-v14/values-v14.xml -->
+    <!-- From: file:/home/benedikt/Projects/Android/TaskerCMProfile/localeapi/build/intermediates/bundles/debug/res/values-v14/values-v14.xml -->
     <eat-comment/>
     <style name="Theme.Locale.Dark" parent="android:Theme.DeviceDefault"/>
     <style name="Theme.Locale.Dialog" parent="android:Theme.DeviceDefault.Dialog"/>
